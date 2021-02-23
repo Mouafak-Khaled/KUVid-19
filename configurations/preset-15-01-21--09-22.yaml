@@ -1,0 +1,33 @@
+---
+l: 90.0
+linearAlpha: false
+linearBeta: false
+spinningAlpha: false
+spinningBeta: false
+difficulty: 1
+atoms:
+- 100
+- 100
+- 100
+- 100
+powerups:
+- 100
+- 100
+- 100
+- 100
+molecules:
+- 100
+- 100
+- 100
+- 100
+blockers:
+- 100
+- 100
+- 100
+- 100
+shields:
+- 100
+- 100
+- 100
+- 100
+theme: "Disco"

@@ -1,0 +1,391 @@
+---
+atoms:
+- !<atom>
+  superType: "ATOM"
+  coordinates:
+    x: 523.9195950555804
+    "y": 344.4106692846035
+  hitbox: !<circular-hitbox>
+    rotationDegree: -10.0
+    radius: 9.0
+  entityType: "GAMMA"
+  pathPattern: !<straight-pattern>
+    currentCoords:
+      x: 523.9195950555804
+      "y": 344.4106692846035
+    initialVelocity:
+      velocityVector:
+        originCoordinate:
+          x: 0.0
+          "y": 0.0
+        positionCoordinate:
+          x: -0.0903894513117304
+          "y": -0.5126240704380737
+  stabilityConstant: 0.12438043520303747
+  efficiency: 0.9834599591805246
+  numberOfProtons: 32
+  numberOfNeutrons: 32
+  boundaryPoints:
+  - x: 532.9195950555804
+    "y": 344.4106692846035
+  - x: 530.283556275368
+    "y": 350.7746305043911
+  - x: 523.9195950555804
+    "y": 353.4106692846035
+  - x: 517.5556338357928
+    "y": 350.7746305043911
+  - x: 514.9195950555804
+    "y": 344.4106692846035
+  - x: 517.5556338357928
+    "y": 338.0467080648159
+  - x: 523.9195950555804
+    "y": 335.4106692846035
+  - x: 530.283556275368
+    "y": 338.0467080648159
+blockers:
+- coordinates:
+    x: 210.46418891565725
+    "y": 450.71989250183105
+  hitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 45.0
+  blockingHitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 90.0
+  explodingHitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 180.0
+  pathPattern: !<zigzag-pattern>
+    zigzagPattern: !<composite-pattern>
+      currentCoords:
+        x: 210.46418891565725
+        "y": 450.71989250183105
+      patterns:
+      - !<straight-pattern>
+        currentCoords: null
+        initialVelocity:
+          velocityVector:
+            originCoordinate:
+              x: 0.0
+              "y": 0.0
+            positionCoordinate:
+              x: -1.0606601238250732
+              "y": 1.0606601238250732
+      - !<straight-pattern>
+        currentCoords: null
+        initialVelocity:
+          velocityVector:
+            originCoordinate:
+              x: 0.0
+              "y": 0.0
+            positionCoordinate:
+              x: 1.0606601238250732
+              "y": 1.0606601238250732
+      iterations:
+      - 60
+      - 60
+      currentPattern: !<straight-pattern>
+        currentCoords:
+          x: 210.46418891565725
+          "y": 450.71989250183105
+        initialVelocity:
+          velocityVector:
+            originCoordinate:
+              x: 0.0
+              "y": 0.0
+            positionCoordinate:
+              x: 1.0606601238250732
+              "y": 1.0606601238250732
+  entityType: "ALPHA"
+  superType: "BLOCKER"
+  blockingRadius: 90.0
+  explosionRadius: 180.0
+  exploded: false
+  boundaryPoints:
+  - x: 255.46418891565725
+    "y": 450.71989250183105
+  - x: 242.28399406092092
+    "y": 482.5396976470947
+  - x: 210.46418891565725
+    "y": 495.71989250183105
+  - x: 178.64438377039357
+    "y": 482.5396976470947
+  - x: 165.46418891565725
+    "y": 450.71989250183105
+  - x: 178.64438377039357
+    "y": 418.9000873565674
+  - x: 210.46418891565725
+    "y": 405.71989250183105
+  - x: 242.28399406092092
+    "y": 418.9000873565674
+- coordinates:
+    x: 432.9713445186559
+    "y": 213.13202476501465
+  hitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 45.0
+  blockingHitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 90.0
+  explodingHitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 180.0
+  pathPattern: !<zigzag-pattern>
+    zigzagPattern: !<composite-pattern>
+      currentCoords:
+        x: 432.9713445186559
+        "y": 213.13202476501465
+      patterns:
+      - !<straight-pattern>
+        currentCoords: null
+        initialVelocity:
+          velocityVector:
+            originCoordinate:
+              x: 0.0
+              "y": 0.0
+            positionCoordinate:
+              x: -1.0606601238250732
+              "y": 1.0606601238250732
+      - !<straight-pattern>
+        currentCoords: null
+        initialVelocity:
+          velocityVector:
+            originCoordinate:
+              x: 0.0
+              "y": 0.0
+            positionCoordinate:
+              x: 1.0606601238250732
+              "y": 1.0606601238250732
+      iterations:
+      - 60
+      - 60
+      currentPattern: !<straight-pattern>
+        currentCoords:
+          x: 432.9713445186559
+          "y": 213.13202476501465
+        initialVelocity:
+          velocityVector:
+            originCoordinate:
+              x: 0.0
+              "y": 0.0
+            positionCoordinate:
+              x: 1.0606601238250732
+              "y": 1.0606601238250732
+  entityType: "ALPHA"
+  superType: "BLOCKER"
+  blockingRadius: 90.0
+  explosionRadius: 180.0
+  exploded: false
+  boundaryPoints:
+  - x: 477.9713445186559
+    "y": 213.13202476501465
+  - x: 464.79114966391955
+    "y": 244.95182991027832
+  - x: 432.9713445186559
+    "y": 258.13202476501465
+  - x: 401.1515393733922
+    "y": 244.95182991027832
+  - x: 387.9713445186559
+    "y": 213.13202476501465
+  - x: 401.1515393733922
+    "y": 181.31221961975098
+  - x: 432.9713445186559
+    "y": 168.13202476501465
+  - x: 464.79114966391955
+    "y": 181.31221961975098
+powerUps: []
+molecules: []
+shieldHandler: null
+shooter:
+  superType: "SHOOTER"
+  coordinates:
+    x: 456.5
+    "y": 765.0
+  hitbox: !<rectangular-hitbox>
+    rotationDegree: -10.0
+    width: 45.0
+    height: 90.0
+  currentProjectile: !<atom>
+    coordinates:
+      x: 456.5
+      "y": 711.0
+    hitbox: !<circular-hitbox>
+      rotationDegree: 0.0
+      radius: 9.0
+    pathPattern: !<straight-pattern>
+      currentCoords:
+        x: 456.5
+        "y": 711.0
+      initialVelocity:
+        velocityVector:
+          originCoordinate:
+            x: 0.0
+            "y": 0.0
+          positionCoordinate:
+            x: 0.0
+            "y": -4.5
+    entityType: "BETA"
+    stabilityConstant: 0.9
+    efficiency: 0.8375
+    numberOfProtons: 16
+    numberOfNeutrons: 18
+    superType: "ATOM"
+    boundaryPoints:
+    - x: 465.5
+      "y": 711.0
+    - x: 462.8639612197876
+      "y": 717.3639612197876
+    - x: 456.5
+      "y": 720.0
+    - x: 450.1360387802124
+      "y": 717.3639612197876
+    - x: 447.5
+      "y": 711.0
+    - x: 450.1360387802124
+      "y": 704.6360387802124
+    - x: 456.5
+      "y": 702.0
+    - x: 462.8639612197876
+      "y": 704.6360387802124
+  shieldHandler:
+    tempShields:
+      shields:
+      - 0
+      - 0
+      - 0
+      - 0
+    shields:
+      shields:
+      - 82
+      - 83
+      - 99
+      - 84
+  boundaryPoints:
+  - x: 442.1559934616089
+    "y": 813.2234344482422
+  - x: 447.6955375671387
+    "y": 812.2466621398926
+  - x: 453.23508071899414
+    "y": 811.269889831543
+  - x: 458.77462434768677
+    "y": 810.2931213378906
+  - x: 464.3141679763794
+    "y": 809.316349029541
+  - x: 469.8537120819092
+    "y": 808.3395767211914
+  - x: 475.39325523376465
+    "y": 807.3628082275391
+  - x: 480.9327983856201
+    "y": 806.3860359191895
+  - x: 486.4723415374756
+    "y": 805.4092636108398
+  - x: 426.5276584625244
+    "y": 724.5907363891602
+  - x: 432.0672016143799
+    "y": 723.6139640808105
+  - x: 437.60674476623535
+    "y": 722.6371917724609
+  - x: 443.1462879180908
+    "y": 721.6604232788086
+  - x: 448.6858320236206
+    "y": 720.683650970459
+  - x: 454.22537565231323
+    "y": 719.7068786621094
+  - x: 459.76491928100586
+    "y": 718.730110168457
+  - x: 465.3044624328613
+    "y": 717.7533378601074
+  - x: 470.8440065383911
+    "y": 716.7765655517578
+  - x: 426.5276584625244
+    "y": 724.5907363891602
+  - x: 428.48119926452637
+    "y": 735.6698226928711
+  - x: 430.43474197387695
+    "y": 746.748908996582
+  - x: 432.3882827758789
+    "y": 757.8279967308044
+  - x: 434.3418254852295
+    "y": 768.9070839881897
+  - x: 436.2953681945801
+    "y": 779.9861707687378
+  - x: 438.24890899658203
+    "y": 791.065258026123
+  - x: 440.2024517059326
+    "y": 802.144344329834
+  - x: 442.1559934616089
+    "y": 813.2234344482422
+  - x: 470.8440065383911
+    "y": 716.7765655517578
+  - x: 472.7975482940674
+    "y": 727.855655670166
+  - x: 474.75109100341797
+    "y": 738.934741973877
+  - x: 476.7046318054199
+    "y": 750.0138292312622
+  - x: 478.6581745147705
+    "y": 761.0929160118103
+  - x: 480.6117172241211
+    "y": 772.1720032691956
+  - x: 482.56525802612305
+    "y": 783.251091003418
+  - x: 484.51880073547363
+    "y": 794.3301773071289
+  - x: 486.4723415374756
+    "y": 805.4092636108398
+configBundle:
+  l: 90.0
+  linearAlpha: false
+  linearBeta: false
+  spinningAlpha: false
+  spinningBeta: false
+  difficulty: 1
+  atoms:
+  - 100
+  - 100
+  - 100
+  - 100
+  powerups:
+  - 100
+  - 100
+  - 100
+  - 100
+  molecules:
+  - 100
+  - 100
+  - 100
+  - 100
+  blockers:
+  - 100
+  - 100
+  - 100
+  - 100
+  shields:
+  - 100
+  - 100
+  - 100
+  - 100
+  theme: "disco"
+player:
+  username: "player"
+  health: 92.78921417855595
+  score: 0.74375
+  timer:
+    remainingTimeMillis: 500579
+projectileContainer:
+  atomMap:
+  - 96
+  - 99
+  - 97
+  - 100
+  powerUpMap:
+  - 1
+  - 0
+  - 1
+  - 2
+  shieldsMap:
+    0: []
+    1: []
+    2: []
+    3: []
+  totalAtomCount: 392

@@ -1,0 +1,417 @@
+---
+atoms:
+- !<atom>
+  coordinates:
+    x: 776.0
+    "y": 32.0
+  hitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 9.0
+  pathPattern: !<straight-pattern>
+    currentCoords:
+      x: 776.0
+      "y": 32.0
+    initialVelocity:
+      velocityVector:
+        originCoordinate:
+          x: 0.0
+          "y": 0.0
+        positionCoordinate:
+          x: 0.0
+          "y": -4.5
+  entityType: "BETA"
+  efficiency: 0.74375
+  numberOfProtons: 16
+  numberOfNeutrons: 21
+  superType: "ATOM"
+  boundaryPoints:
+  - x: 785.0
+    "y": 32.0
+  - x: 782.3639612197876
+    "y": 38.3639612197876
+  - x: 776.0
+    "y": 41.0
+  - x: 769.6360387802124
+    "y": 38.3639612197876
+  - x: 767.0
+    "y": 32.0
+  - x: 769.6360387802124
+    "y": 25.636038780212402
+  - x: 776.0
+    "y": 23.0
+  - x: 782.3639612197876
+    "y": 25.636038780212402
+- !<atom>
+  coordinates:
+    x: 776.0
+    "y": 216.5
+  hitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 9.0
+  pathPattern: !<straight-pattern>
+    currentCoords:
+      x: 776.0
+      "y": 216.5
+    initialVelocity:
+      velocityVector:
+        originCoordinate:
+          x: 0.0
+          "y": 0.0
+        positionCoordinate:
+          x: 0.0
+          "y": -4.5
+  entityType: "ALPHA"
+  efficiency: 0.74375
+  numberOfProtons: 8
+  numberOfNeutrons: 7
+  superType: "ATOM"
+  boundaryPoints:
+  - x: 785.0
+    "y": 216.5
+  - x: 782.3639612197876
+    "y": 222.8639612197876
+  - x: 776.0
+    "y": 225.5
+  - x: 769.6360387802124
+    "y": 222.8639612197876
+  - x: 767.0
+    "y": 216.5
+  - x: 769.6360387802124
+    "y": 210.1360387802124
+  - x: 776.0
+    "y": 207.5
+  - x: 782.3639612197876
+    "y": 210.1360387802124
+- !<atom>
+  coordinates:
+    x: 776.0
+    "y": 392.0
+  hitbox: !<circular-hitbox>
+    rotationDegree: 0.0
+    radius: 9.0
+  pathPattern: !<straight-pattern>
+    currentCoords:
+      x: 776.0
+      "y": 392.0
+    initialVelocity:
+      velocityVector:
+        originCoordinate:
+          x: 0.0
+          "y": 0.0
+        positionCoordinate:
+          x: 0.0
+          "y": -4.5
+  entityType: "GAMMA"
+  efficiency: 0.846875
+  numberOfProtons: 32
+  numberOfNeutrons: 29
+  superType: "ATOM"
+  boundaryPoints:
+  - x: 785.0
+    "y": 392.0
+  - x: 782.3639612197876
+    "y": 398.3639612197876
+  - x: 776.0
+    "y": 401.0
+  - x: 769.6360387802124
+    "y": 398.3639612197876
+  - x: 767.0
+    "y": 392.0
+  - x: 769.6360387802124
+    "y": 385.6360387802124
+  - x: 776.0
+    "y": 383.0
+  - x: 782.3639612197876
+    "y": 385.6360387802124
+blockers: []
+powerUps:
+- !<powerup>
+  coordinates:
+    x: 493.47923034114245
+    "y": 334.5
+  hitbox: !<rectangular-hitbox>
+    rotationDegree: 0.0
+    width: 90.0
+    height: 90.0
+  pathPattern: !<straight-pattern>
+    currentCoords:
+      x: 493.47923034114245
+      "y": 334.5
+    initialVelocity:
+      velocityVector:
+        originCoordinate:
+          x: 0.0
+          "y": 0.0
+        positionCoordinate:
+          x: 0.0
+          "y": 1.5
+  entityType: "ALPHA"
+  falling: true
+  superType: "POWERUP"
+  boundaryPoints:
+  - x: 448.47923034114245
+    "y": 379.5
+  - x: 459.72923034114245
+    "y": 379.5
+  - x: 470.97923034114245
+    "y": 379.5
+  - x: 482.22923034114245
+    "y": 379.5
+  - x: 493.47923034114245
+    "y": 379.5
+  - x: 504.72923034114245
+    "y": 379.5
+  - x: 515.9792303411425
+    "y": 379.5
+  - x: 527.2292303411425
+    "y": 379.5
+  - x: 538.4792303411425
+    "y": 379.5
+  - x: 448.47923034114245
+    "y": 289.5
+  - x: 459.72923034114245
+    "y": 289.5
+  - x: 470.97923034114245
+    "y": 289.5
+  - x: 482.22923034114245
+    "y": 289.5
+  - x: 493.47923034114245
+    "y": 289.5
+  - x: 504.72923034114245
+    "y": 289.5
+  - x: 515.9792303411425
+    "y": 289.5
+  - x: 527.2292303411425
+    "y": 289.5
+  - x: 538.4792303411425
+    "y": 289.5
+  - x: 448.47923034114245
+    "y": 289.5
+  - x: 448.47923034114245
+    "y": 300.75
+  - x: 448.47923034114245
+    "y": 312.0
+  - x: 448.47923034114245
+    "y": 323.25
+  - x: 448.47923034114245
+    "y": 334.5
+  - x: 448.47923034114245
+    "y": 345.75
+  - x: 448.47923034114245
+    "y": 357.0
+  - x: 448.47923034114245
+    "y": 368.25
+  - x: 448.47923034114245
+    "y": 379.5
+  - x: 538.4792303411425
+    "y": 289.5
+  - x: 538.4792303411425
+    "y": 300.75
+  - x: 538.4792303411425
+    "y": 312.0
+  - x: 538.4792303411425
+    "y": 323.25
+  - x: 538.4792303411425
+    "y": 334.5
+  - x: 538.4792303411425
+    "y": 345.75
+  - x: 538.4792303411425
+    "y": 357.0
+  - x: 538.4792303411425
+    "y": 368.25
+  - x: 538.4792303411425
+    "y": 379.5
+molecules: []
+shieldHandler: null
+shooter:
+  superType: "SHOOTER"
+  coordinates:
+    x: 776.0
+    "y": 765.0
+  hitbox: !<rectangular-hitbox>
+    rotationDegree: 0.0
+    width: 45.0
+    height: 90.0
+  currentProjectile: !<atom>
+    coordinates:
+      x: 776.0
+      "y": 711.0
+    hitbox: !<circular-hitbox>
+      rotationDegree: 0.0
+      radius: 9.0
+    pathPattern: !<straight-pattern>
+      currentCoords:
+        x: 776.0
+        "y": 711.0
+      initialVelocity:
+        velocityVector:
+          originCoordinate:
+            x: 0.0
+            "y": 0.0
+          positionCoordinate:
+            x: 0.0
+            "y": -4.5
+    entityType: "GAMMA"
+    efficiency: 0.8
+    numberOfProtons: 32
+    numberOfNeutrons: 32
+    superType: "ATOM"
+    boundaryPoints:
+    - x: 785.0
+      "y": 711.0
+    - x: 782.3639612197876
+      "y": 717.3639612197876
+    - x: 776.0
+      "y": 720.0
+    - x: 769.6360387802124
+      "y": 717.3639612197876
+    - x: 767.0
+      "y": 711.0
+    - x: 769.6360387802124
+      "y": 704.6360387802124
+    - x: 776.0
+      "y": 702.0
+    - x: 782.3639612197876
+      "y": 704.6360387802124
+  shieldHandler:
+    tempShields:
+      shields:
+      - 0
+      - 0
+      - 0
+      - 0
+    shields:
+      shields:
+      - 100
+      - 100
+      - 100
+      - 100
+  boundaryPoints:
+  - x: 753.5
+    "y": 810.0
+  - x: 759.125
+    "y": 810.0
+  - x: 764.75
+    "y": 810.0
+  - x: 770.375
+    "y": 810.0
+  - x: 776.0
+    "y": 810.0
+  - x: 781.625
+    "y": 810.0
+  - x: 787.25
+    "y": 810.0
+  - x: 792.875
+    "y": 810.0
+  - x: 798.5
+    "y": 810.0
+  - x: 753.5
+    "y": 720.0
+  - x: 759.125
+    "y": 720.0
+  - x: 764.75
+    "y": 720.0
+  - x: 770.375
+    "y": 720.0
+  - x: 776.0
+    "y": 720.0
+  - x: 781.625
+    "y": 720.0
+  - x: 787.25
+    "y": 720.0
+  - x: 792.875
+    "y": 720.0
+  - x: 798.5
+    "y": 720.0
+  - x: 753.5
+    "y": 720.0
+  - x: 753.5
+    "y": 731.25
+  - x: 753.5
+    "y": 742.5
+  - x: 753.5
+    "y": 753.75
+  - x: 753.5
+    "y": 765.0
+  - x: 753.5
+    "y": 776.25
+  - x: 753.5
+    "y": 787.5
+  - x: 753.5
+    "y": 798.75
+  - x: 753.5
+    "y": 810.0
+  - x: 798.5
+    "y": 720.0
+  - x: 798.5
+    "y": 731.25
+  - x: 798.5
+    "y": 742.5
+  - x: 798.5
+    "y": 753.75
+  - x: 798.5
+    "y": 765.0
+  - x: 798.5
+    "y": 776.25
+  - x: 798.5
+    "y": 787.5
+  - x: 798.5
+    "y": 798.75
+  - x: 798.5
+    "y": 810.0
+configBundle:
+  l: 90.0
+  linearAlpha: false
+  linearBeta: false
+  spinningAlpha: false
+  spinningBeta: false
+  difficulty: 1
+  atoms:
+  - 100
+  - 100
+  - 100
+  - 100
+  powerups:
+  - 100
+  - 100
+  - 100
+  - 100
+  molecules:
+  - 100
+  - 100
+  - 100
+  - 100
+  blockers:
+  - 100
+  - 100
+  - 100
+  - 100
+  shields:
+  - 100
+  - 100
+  - 100
+  - 100
+  theme: "disco"
+player:
+  username: "player"
+  health: 100.0
+  score: 0.0
+  timer:
+    remainingTimeMillis: 598439
+projectileContainer:
+  atomMap:
+  - 99
+  - 99
+  - 98
+  - 100
+  powerUpMap:
+  - 0
+  - 0
+  - 0
+  - 0
+  shieldsMap:
+    0: []
+    1: []
+    2: []
+    3: []
+  totalAtomCount: 396
